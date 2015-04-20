@@ -30,6 +30,9 @@ config file:
         "plugins": [ "arkivo-mailer" ],
 
         "mailer": {
+          "from": "arkivo@zotero.org",
+          "subject": "Arkivo Update",
+
           "mimetypes" [
             "application/pdf"
           ]
